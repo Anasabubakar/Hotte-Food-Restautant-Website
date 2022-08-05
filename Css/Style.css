@@ -650,6 +650,11 @@ section p{
     color: #fff;
 }
 
-.tasty-food h1{
+.tasty-text h2{
     color: #fff;
+    text-align: left;
+}
+
+.tasty-text h2 span{
+    color: #000;
 }
