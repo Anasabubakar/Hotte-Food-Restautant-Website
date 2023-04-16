@@ -648,13 +648,55 @@ section p{
     background: url(../Images/testyimg.jpg);
     background-size: cover;
     color: #fff;
+    padding-top: 1px;
 }
 
 .tasty-text h2{
     color: #fff;
     text-align: left;
+    font-weight: 900;
 }
 
 .tasty-text h2 span{
-    color: #000;
+    color: #0a0626;
+    font-weight: 900;
+}
+
+.tasty-box{
+    width: 80%;
+    height: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .tasty-text{
+    margin-left: 50px;
+} */
+
+.play {
+    font-size: 50px;
+    float: left;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 15px 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.intro{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mins{
+    position: relative;
+    right: 150px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
