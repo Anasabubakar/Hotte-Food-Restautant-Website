@@ -277,7 +277,6 @@ h2{
 }
 
 .special-pricebox a:hover{
-    border: 1px solid #000;
     color: #000;
 }
 
@@ -431,7 +430,6 @@ section p{
 }
 
 .meal-box a:hover{
-    border: 1px solid #000;
 }
 
 .offers {
@@ -471,7 +469,7 @@ section p{
     margin-top: 20px;
 }
 
-.small{
+.dollar{
     font-size: 15px;
 }
 
@@ -605,7 +603,6 @@ section p{
 
 .customers-img{
     width: 100%;
-    border: 1px solid #000;
 }
 
 .customer-img i{
@@ -662,6 +659,10 @@ section p{
     font-weight: 900;
 }
 
+.tasty-text p{
+    font-weight: normal;
+}
+
 .tasty-box{
     width: 80%;
     height: 80%;
@@ -699,4 +700,173 @@ section p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer{
+    height: 70vh;
+    width: 100vw;
+}
+
+.links{
+    width: 365px;
+    height: 100%;
+    margin-left: 125px;
+}
+
+.contacts{
+    width: 255px;
+    height: 100%;
+}
+
+.hours{
+    background-color: #feeee7;
+    width: 450px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.footer-boxes{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.copyright{
+    background-color: #feeee7;
+    height: 70px;
+    width: 100vw;
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.links img{
+    width: 80px;
+}
+
+.fp{
+    margin-top: 10px;
+}
+
+.sp{
+    margin-top: 20px;
+    color: #FF702A;
+}
+
+.social-links{
+    margin-top: 30px;
+}
+
+.social-links i{
+    font-size: 23px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.fb{
+    background-color: #d4e2f8;
+    color: #125dd6;
+}
+
+.pi{
+    background-color: #ffdfe1;
+    color: #ed333f;
+}
+
+.bb{
+    background-color: #f8dae5;
+    color: #ef80aa;
+}
+
+.tw{
+    background-color: #cfedff;
+    color: #1da1f2;
+}
+
+.contacts h3{
+    font-size: 25px;
+}
+
+.contactline{
+    display: flex;
+}
+
+.longbox{
+    width: 70px;
+    height: 6px;
+    background-color: #FF702A;
+}
+
+.small{
+    width: 8px;
+    height: 6px;
+    background-color: #FF702A;
+    margin-left: 13px;
+}
+
+.contacticons{
+    margin-top: 30px;
+    margin-left: -112px;
+
+}
+
+.c{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.c i {
+    font-size: 23px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ffdfe1;
+    margin-right: 20px;
+    color: #FF702A;
+}
+
+.hours h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.timetable{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.days{
+    margin-bottom: 20px;
+}
+
+.dash{
+    margin-bottom: 20px;
+}
+
+.time{
+    margin-bottom: 20px;
+}
+
+.close{
+    color: #ff1b05;
+    font-weight: 900;
+}
+
+.thurs{
+    color: #ff4d3c;
+    font-weight: 600;
+}
+
+.copy{
+    font-weight: 900;
+    margin-left: 125px;
+}
+
+.terms{
+    font-weight: 900;
+    margin-left: 565px;
 }
